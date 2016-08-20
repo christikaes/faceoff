@@ -1,0 +1,28 @@
+{
+  "name": "face-off",
+  "version": "4.0.2",
+  "description": "FaceOff PhoneGap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christinakayastha/faceoff.git"
+  },
+  "author": "FaceOff",
+  "license": "Apache-2.0.0",
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+    "cordova:template",
+    "phonegap:template"
+  ],
+  "bugs": {
+    "url": "https://github.com/christinakayastha/faceoff/issues"
+  },
+  "homepage": "https://github.com/christinakayastha/faceoff",
+  "scripts": {
+  },
+  "dependencies": {
+    "angularfire2": "^2.0.0-beta.2",
+    "firebase": "^3.2.1",
+    "rimraf": "^2.5.2"
+  }
+}
