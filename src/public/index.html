@@ -6,6 +6,18 @@
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 
     <base href="/">
+
+    <script src="js/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDGhzRT4DieC1iEvI3hCEZ19mrmQyVBDGE",
+        authDomain: "faceoff-f1ff3.firebaseapp.com",
+        databaseURL: "https://faceoff-f1ff3.firebaseio.com",
+        storageBucket: "faceoff-f1ff3.appspot.com",
+      };
+      firebase.initializeApp(config);
+    </script>
   </head>
   <body>
     <my-app>Loading...</my-app>

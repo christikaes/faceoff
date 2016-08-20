@@ -8,4 +8,14 @@ if (process.env.ENV === 'build') {
   enableProdMode();
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule);
+const startBootstrap = function() {
+  platformBrowserDynamic().bootstrapModule(AppModule);
+}
+
+// if cordova
+if (window.cordova) {
+  // wait for device ready if cordova
+  document.addEventListener('deviceready', startBootstrap, false);
+} else { // else just start
+  startBootstrap();
+}
