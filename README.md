@@ -2,8 +2,6 @@
 
 Funny Faces Game
 
-Original FaceQualm:
-
 The following stack is used:
 * Angular2
 * Angular Material2 (useful resource: https://github.com/angular/material2/tree/master/src/demo-app)
