@@ -6,7 +6,8 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ApiService } from './shared';
+import { GameComponent } from './game/game.component';
+import { ApiService, FunnyFacesService } from './shared';
 import { routing } from './app.routing';
 
 @NgModule({
@@ -19,10 +20,12 @@ import { routing } from './app.routing';
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    GameComponent
   ],
   providers: [
-    ApiService
+    ApiService,
+    FunnyFacesService
   ],
   bootstrap: [AppComponent]
 })
