@@ -1,13 +1,18 @@
-<form class="col s12">
-  <div class="row">
-    <div class="input-field col s8">
-      <i class="material-icons prefix">account_circle</i>
-      <input id="name" type="text" class="validate">
-      <label for="name">Name</label>
+<div class="container">
+  <h1>
+    Are you Ready for a FACEOFF?
+  </h1>
+  <img src="img/background.jpg" />
+
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s8">
+        <input id="name" type="text" class="validate">
+        <label for="name">Name</label>
+      </div>
+      <div class="col s4">
+        <a class="waves-effect waves-light btn-large" [routerLink]="['rooms']">Start Playing!</a>
+      </div>
     </div>
-    <div class="col s4">
-      <a class="waves-effect waves-light btn">Start Playing!<i class="material-icons right">play_arrow</i></a>
-    </div>
-  </div>
-</form>
-<my-game></my-game>
+  </form>
+</div>

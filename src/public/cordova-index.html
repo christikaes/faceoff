@@ -44,7 +44,7 @@
     <title>FaceOff</title>
 
     <!-- TODO: Move these to vendor -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
     <script src="thirdparty/firebase.js"></script>
     <script>
       // Initialize Firebase
@@ -59,12 +59,14 @@
     <link rel="stylesheet" type="text/css" href="thirdparty/materialize.min.css">
     <script src="thirdparty/jquery.js"></script>
     <script src="thirdparty/materialize.min.js"></script>
-
   </head>
 
   <body>
     <my-app>Loading...</my-app>
     <script type="text/javascript" src="cordova.js"></script>
+    <script>
+      $(".button-collapse").sideNav();
+    </script>
   </body>
 
 </html>
